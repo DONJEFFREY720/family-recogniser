@@ -24,7 +24,7 @@ function modelLoaded(){
 
 function check()
   {
-       img = document.getElementById("selfie_image");
+       img = document.getElementById("captured_image");
    classifier.classify(img,gotResult)
   }
 
